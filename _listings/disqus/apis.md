@@ -17,9 +17,9 @@ tags:
 - Media
 - Content
 - Comments
-created: "2018-03-13"
-modified: "2018-03-13"
-url: https://raw.githubusercontent.com/streamdata-gallery/organizations/master/_listings/disqus/apis.yaml
+created: "2018-03-21"
+modified: "2018-03-21"
+url: https://raw.githubusercontent.com/streamdata-gallery-topics/organizations/master/_listings/disqus/apis.yaml
 specificationVersion: "0.14"
 apis:
 - name: Disqus
@@ -31,7 +31,7 @@ apis:
   tags: Organizations
   properties:
   - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery/organizations/master/_listings/disqus/organizations-saas-updatepaymentinfo-json-post.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/organizations/master/_listings/disqus/organizations-listadmins-json-get.md
 x-common:
 - type: x-base
   url: https://disqus.com/api/
