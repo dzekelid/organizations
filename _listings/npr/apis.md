@@ -17,9 +17,9 @@ tags:
 - Getting Started
 - Federal Government
 - Broadcasting
-created: "2018-03-13"
-modified: "2018-03-13"
-url: https://raw.githubusercontent.com/streamdata-gallery/organizations/master/_listings/npr/apis.yaml
+created: "2018-03-21"
+modified: "2018-03-21"
+url: https://raw.githubusercontent.com/streamdata-gallery-topics/organizations/master/_listings/npr/apis.yaml
 specificationVersion: "0.14"
 apis:
 - name: NPR
@@ -30,7 +30,7 @@ apis:
   tags: Organizations
   properties:
   - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery/organizations/master/_listings/npr/listening-v2-organizations-orgid-recommendations-get.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/organizations/master/_listings/npr/listening-v2-organizations-orgid-categories-category-recommendations-get.md
 x-common:
 - type: x-base
   url: http://api.npr.org/
