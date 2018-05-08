@@ -15,10 +15,8 @@ produces:
 consumes:
 - application/json
 paths:
-  ? |2-
-
-        /organizations/saas/updatePaymentInfo.json
-  : post:
+  /organizations/saas/updatePaymentInfo.json:
+    post:
       summary: Organizations Saas UpdatePaymentInfo
       description: "\n     Organizations Saas UpdatePaymentInfo "
       operationId: organizations-saas-updatepaymentinfo
