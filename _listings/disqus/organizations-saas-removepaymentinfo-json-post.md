@@ -15,10 +15,8 @@ produces:
 consumes:
 - application/json
 paths:
-  ? |2-
-
-        /organizations/saas/removePaymentInfo.json
-  : post:
+  /organizations/saas/removePaymentInfo.json:
+    post:
       summary: Organizations Saas RemovePaymentInfo
       description: "\n     Organizations Saas RemovePaymentInfo "
       operationId: organizations-saas-removepaymentinfo
