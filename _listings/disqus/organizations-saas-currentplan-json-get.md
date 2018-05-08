@@ -15,10 +15,8 @@ produces:
 consumes:
 - application/json
 paths:
-  ? |2-
-
-        /organizations/saas/currentPlan.json
-  : get:
+  /organizations/saas/currentPlan.json:
+    get:
       summary: Organizations Saas CurrentPlan
       description: "\n     Organizations Saas CurrentPlan "
       operationId: organizations-saas-currentplan
