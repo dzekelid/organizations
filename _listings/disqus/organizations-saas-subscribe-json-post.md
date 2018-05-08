@@ -15,10 +15,8 @@ produces:
 consumes:
 - application/json
 paths:
-  ? |2-
-
-        /organizations/saas/subscribe.json
-  : post:
+  /organizations/saas/subscribe.json:
+    post:
       summary: Organizations Saas Subscribe
       description: "\n     Organizations Saas Subscribe "
       operationId: organizations-saas-subscribe
