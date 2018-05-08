@@ -15,10 +15,8 @@ produces:
 consumes:
 - application/json
 paths:
-  ? |2-
-
-        /organizations/saas/unsubscribe.json
-  : post:
+  /organizations/saas/unsubscribe.json:
+    post:
       summary: Organizations Saas Unsubscribe
       description: "\n     Organizations Saas Unsubscribe "
       operationId: organizations-saas-unsubscribe
