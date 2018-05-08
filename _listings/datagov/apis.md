@@ -28,7 +28,7 @@ apis:
   tags: Organizations
   properties:
   - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/organizations/master/_listings/datagov/organizations-org-badges-badge-kind-delete.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/organizations/master/_listings/datagov/organizations-org-datasets-get.md
 x-common:
 - type: x-blog
   url: https://www.data.gov/meta/
