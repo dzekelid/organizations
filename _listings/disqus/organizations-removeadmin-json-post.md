@@ -15,10 +15,8 @@ produces:
 consumes:
 - application/json
 paths:
-  ? |2-
-
-        /organizations/removeAdmin.json
-  : post:
+  /organizations/removeAdmin.json:
+    post:
       summary: Organizations RemoveAdmin
       description: "\n     Organizations RemoveAdmin "
       operationId: organizations-removeadmin
