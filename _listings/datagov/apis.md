@@ -15,8 +15,8 @@ tags:
 - Federal Government   GSA
 - Federal Government
 - Federal Government
-created: "2018-03-23"
-modified: "2018-03-23"
+created: "2018-05-08"
+modified: "2018-05-08"
 url: https://raw.githubusercontent.com/streamdata-gallery-topics/organizations/master/_listings/datagov/apis.yaml
 specificationVersion: "0.14"
 apis:
@@ -28,7 +28,7 @@ apis:
   tags: Organizations
   properties:
   - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/organizations/master/_listings/datagov/organizations-org-reuses-get.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/organizations/master/_listings/datagov/organizations-get.md
 x-common:
 - type: x-blog
   url: https://www.data.gov/meta/
