@@ -15,10 +15,8 @@ produces:
 consumes:
 - application/json
 paths:
-  ? |2-
-
-        /organizations/listAdmins.json
-  : get:
+  /organizations/listAdmins.json:
+    get:
       summary: Organizations ListAdmins
       description: "\n     Organizations ListAdmins "
       operationId: organizations-listadmins
