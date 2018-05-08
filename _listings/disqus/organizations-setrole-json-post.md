@@ -15,10 +15,8 @@ produces:
 consumes:
 - application/json
 paths:
-  ? |2-
-
-        /organizations/setRole.json
-  : post:
+  /organizations/setRole.json:
+    post:
       summary: Organizations SetRole
       description: "\n     Organizations SetRole "
       operationId: organizations-setrole
