@@ -1,12 +1,8 @@
 ---
 swagger: "2.0"
 info:
-  title: GitHub
-  description: GitHub is the best place to share code with friends, co-workers, classmates,
-    and complete strangers. Over 24 million people use GitHub to build amazing things
-    together across 67 million repositories. With the collaborative features of GitHub.com
-    and GitHub Business, it has never been easier for individuals and teams to write
-    faster, better code.
+  title: Github Get Organizations
+  description: Get all organizations
   termsOfService: https://help.github.com/articles/github-terms-of-service/#b-api-terms
   version: 1.0.0
 host: api.github.com
@@ -1634,16 +1630,16 @@ definitions:
         type: get
 x-collection-name: GitHub
 x-streamrank:
-  polling_total_time_average: "0.13"
-  polling_size_download_average: "16751.15"
-  streaming_total_time_average: "0.07"
-  streaming_size_download_average: "8392.92"
+  polling_total_time_average: "0.16"
+  polling_size_download_average: "16805.74"
+  streaming_total_time_average: "0.09"
+  streaming_size_download_average: "8406.46"
   change_yes: "3"
-  change_no: "482"
-  time_percentage: "45"
+  change_no: "2338"
+  time_percentage: "41"
   size_percentage: "50"
-  change_percentage: "1"
-  last_run: "2018-05-06"
-  days_run: "2"
+  change_percentage: "0"
+  last_run: "2018-05-12"
+  days_run: "8"
   minute_run: "0"
 ---
