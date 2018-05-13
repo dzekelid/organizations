@@ -29,15 +29,17 @@ apis:
   properties:
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/organizations/master/_listings/datagov/organizations-org-reuses-get.md
-- name: Data.gov API Put Organizations Org Member User
-  description: Update member status into a given organization
+- name: Data.gov API Get Organizations Org Membership
+  description: List membership requests for a given organization
   image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/data-gov-logo.png
   humanURL: http://data.gov/
   baseURL: https://catalog.data.gov//api/3/
   tags: Organizations
   properties:
   - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/organizations/master/_listings/datagov/organizations-org-member-user-put.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/organizations/master/_listings/datagov/organizations-org-membership-get.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/organizations/master/_listings/datagov/organizations-org-membership-get-postman.md
 x-common:
 - type: x-blog
   url: https://www.data.gov/meta/
