@@ -18,16 +18,7 @@ created: "2018-05-08"
 modified: "2018-05-08"
 url: https://raw.githubusercontent.com/streamdata-gallery-topics/organizations/master/_listings/arin/apis.yaml
 specificationVersion: "0.14"
-apis:
-- name: Organization API Manages organizations
-  description: ""
-  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/arin-logo.png
-  humanURL: https://www.arin.net
-  baseURL: http:://{host}//
-  tags: Organizations
-  properties:
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/organizations/master/_listings/arin/orgs-get.md
+apis: []
 x-common:
 - type: x-website
   url: https://www.arin.net
