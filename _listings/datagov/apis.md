@@ -29,17 +29,17 @@ apis:
   properties:
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/organizations/master/_listings/datagov/organizations-org-reuses-get.md
-- name: Data.gov API Get Organizations Badges
-  description: List all available organization badges and their labels
+- name: Data.gov API Get Organizations Suggest
+  description: Suggest organizations
   image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/data-gov-logo.png
   humanURL: http://data.gov/
   baseURL: https://catalog.data.gov//api/3/
   tags: Organizations
   properties:
   - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/organizations/master/_listings/datagov/organizations-badges-get.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/organizations/master/_listings/datagov/organizations-suggest-get.md
   - type: x-postman-collection
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/organizations/master/_listings/datagov/organizations-badges-get-postman.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/organizations/master/_listings/datagov/organizations-suggest-get-postman.md
 x-common:
 - type: x-blog
   url: https://www.data.gov/meta/
