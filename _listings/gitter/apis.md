@@ -29,6 +29,20 @@ x-common:
   url: https://twitter.com/gitchat
 - type: x-website
   url: https://gitter.im
+- type: x-crunchbase
+  url: https://crunchbase.com/organization/gitter
+- type: x-developer
+  url: https://developer.gitter.im/docs/streaming-api
+- type: x-github
+  url: https://github.com/gitterHQ
+- type: x-curated-source
+  url: https://gitter.im/apiaryio/api-blueprint
+- type: x-website
+  url: http://gitter.im
+- type: x-twitter
+  url: https://twitter.com/gitchat
+- type: x-website
+  url: https://gitter.im
 include: []
 maintainers:
 - FN: Kin Lane
