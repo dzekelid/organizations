@@ -1,8 +1,8 @@
 ---
 swagger: "2.0"
 info:
-  title: Organization API
-  description: For managing organizations.
+  title: Organization API Manages organizations
+  description: ""
   version: 1.0.0
 schemes:
 - http
