@@ -29,17 +29,15 @@ apis:
   properties:
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/organizations/master/_listings/datagov/organizations-org-reuses-get.md
-- name: Data.gov API Delete Organizations Org Member User
-  description: Delete member from an organization
+- name: Data.gov API Add Organizations Org Member User
+  description: Add a member into a given organization
   image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/data-gov-logo.png
   humanURL: http://data.gov/
   baseURL: https://catalog.data.gov//api/3/
   tags: Organizations
   properties:
   - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/organizations/master/_listings/datagov/organizations-org-member-user-delete.md
-  - type: x-postman-collection
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/organizations/master/_listings/datagov/organizations-org-member-user-delete-postman.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/organizations/master/_listings/datagov/organizations-org-member-user-post.md
 x-common:
 - type: x-blog
   url: https://www.data.gov/meta/
