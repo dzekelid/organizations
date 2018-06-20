@@ -1,0 +1,290 @@
+---
+swagger: "2.0"
+x-collection-name: Data.Gov
+x-complete: 0
+info:
+  title: Data.gov API Get Organizations Org Discussions
+  description: List organization discussions
+  version: "3"
+host: catalog.data.gov
+basePath: /api/3/
+schemes:
+- http
+produces:
+- application/json
+consumes:
+- application/json
+paths:
+  /organizations/:
+    get:
+      summary: Get Organizations
+      description: List or search all organizations
+      operationId: getOrganizations
+      x-api-path-slug: organizations-get
+      parameters:
+      - in: query
+        name: badge
+      - in: query
+        name: datasets
+      - in: query
+        name: facets
+        description: Selected facets to fetch
+      - in: query
+        name: followers
+      - in: query
+        name: page
+        description: The page to display
+      - in: query
+        name: page_size
+        description: The page size
+      - in: query
+        name: permitted_reuses
+      - in: query
+        name: q
+        description: The search query
+      - in: query
+        name: reuses
+      - in: query
+        name: sort
+        description: The field (and direction) on which sorting apply
+      responses:
+        200:
+          description: OK
+      tags:
+      - Organizations
+    post:
+      summary: Add Organizations
+      description: Create a new organization
+      operationId: postOrganizations
+      x-api-path-slug: organizations-post
+      parameters:
+      - in: body
+        name: payload
+        schema:
+          $ref: '#/definitions/holder'
+      responses:
+        200:
+          description: OK
+      tags:
+      - Organizations
+  /organizations/badges/:
+    get:
+      summary: Get Organizations Badges
+      description: List all available organization badges and their labels
+      operationId: getOrganizationsBadges
+      x-api-path-slug: organizationsbadges-get
+      responses:
+        200:
+          description: OK
+      tags:
+      - Organizations
+      - Badges
+  /organizations/suggest/:
+    get:
+      summary: Get Organizations Suggest
+      description: Suggest organizations
+      operationId: getOrganizationsSuggest
+      x-api-path-slug: organizationssuggest-get
+      parameters:
+      - in: query
+        name: q
+        description: The string to autocomplete/suggest
+      - in: query
+        name: size
+        description: The amount of suggestion to fetch
+      responses:
+        200:
+          description: OK
+      tags:
+      - Organizations
+      - Suggest
+  /organizations/{id}/followers/:
+    delete:
+      summary: Delete Organizations  Followers
+      description: Unfollow an object given its ID
+      operationId: deleteOrganizationsFollowers
+      x-api-path-slug: organizationsidfollowers-delete
+      parameters:
+      - in: path
+        name: id
+      responses:
+        200:
+          description: OK
+      tags:
+      - Organizations
+      - ""
+      - Followers
+    get:
+      summary: Get Organizations  Followers
+      description: List all followers for a given object
+      operationId: getOrganizationsFollowers
+      x-api-path-slug: organizationsidfollowers-get
+      parameters:
+      - in: path
+        name: id
+      - in: query
+        name: page
+        description: The page to fetch
+      - in: query
+        name: page_size
+        description: The page size to fetch
+      responses:
+        200:
+          description: OK
+      tags:
+      - Organizations
+      - ""
+      - Followers
+    post:
+      summary: Add Organizations  Followers
+      description: Follow an object given its ID
+      operationId: postOrganizationsFollowers
+      x-api-path-slug: organizationsidfollowers-post
+      parameters:
+      - in: path
+        name: id
+      responses:
+        200:
+          description: OK
+      tags:
+      - Organizations
+      - ""
+      - Followers
+  /organizations/{org}/:
+    delete:
+      summary: Delete Organizations Org
+      description: Delete a organization given its identifier
+      operationId: deleteOrganizationsOrg
+      x-api-path-slug: organizationsorg-delete
+      parameters:
+      - in: path
+        name: org
+        description: The organization ID or slug
+      responses:
+        200:
+          description: OK
+      tags:
+      - Organizations
+      - Org
+    get:
+      summary: Get Organizations Org
+      description: Get a organization given its identifier
+      operationId: getOrganizationsOrg
+      x-api-path-slug: organizationsorg-get
+      parameters:
+      - in: path
+        name: org
+        description: The organization ID or slug
+      responses:
+        200:
+          description: OK
+      tags:
+      - Organizations
+      - Org
+    put:
+      summary: Put Organizations Org
+      description: Update a organization given its identifier
+      operationId: putOrganizationsOrg
+      x-api-path-slug: organizationsorg-put
+      parameters:
+      - in: path
+        name: org
+        description: The organization ID or slug
+      - in: body
+        name: payload
+        schema:
+          $ref: '#/definitions/holder'
+      responses:
+        200:
+          description: OK
+      tags:
+      - Organizations
+      - Org
+  /organizations/{org}/badges/:
+    post:
+      summary: Add Organizations Org Badges
+      description: Create a new badge for a given organization
+      operationId: postOrganizationsOrgBadges
+      x-api-path-slug: organizationsorgbadges-post
+      parameters:
+      - in: path
+        name: org
+        description: The organization ID or slug
+      - in: body
+        name: payload
+        schema:
+          $ref: '#/definitions/holder'
+      responses:
+        200:
+          description: OK
+      tags:
+      - Organizations
+      - Org
+      - Badges
+  /organizations/{org}/badges/{badge_kind}/:
+    delete:
+      summary: Delete Organizations Org Badges Badge Kind
+      description: Delete a badge for a given organization
+      operationId: deleteOrganizationsOrgBadgesBadgeKind
+      x-api-path-slug: organizationsorgbadgesbadge-kind-delete
+      parameters:
+      - in: path
+        name: badge_kind
+      - in: path
+        name: org
+        description: The organization ID or slug
+      responses:
+        200:
+          description: OK
+      tags:
+      - Organizations
+      - Org
+      - Badges
+      - Badge
+      - Kind
+  /organizations/{org}/datasets/:
+    get:
+      summary: Get Organizations Org Datasets
+      description: List organization datasets (including private ones when member)
+      operationId: getOrganizationsOrgDatasets
+      x-api-path-slug: organizationsorgdatasets-get
+      parameters:
+      - in: path
+        name: org
+      responses:
+        200:
+          description: OK
+      tags:
+      - Organizations
+      - Org
+      - Datasets
+  /organizations/{org}/discussions/:
+    get:
+      summary: Get Organizations Org Discussions
+      description: List organization discussions
+      operationId: getOrganizationsOrgDiscussions
+      x-api-path-slug: organizationsorgdiscussions-get
+      parameters:
+      - in: path
+        name: org
+      responses:
+        200:
+          description: OK
+      tags:
+      - Organizations
+      - Org
+      - Discussions
+x-streamrank:
+  polling_total_time_average: 0
+  polling_size_download_average: 0
+  streaming_total_time_average: 0
+  streaming_size_download_average: 0
+  change_yes: 0
+  change_no: 0
+  time_percentage: 0
+  size_percentage: 0
+  change_percentage: 0
+  last_run: ""
+  days_run: 0
+  minute_run: 0
+---

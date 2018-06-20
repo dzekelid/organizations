@@ -1,46 +1,110 @@
 ---
 name: Disqus
-description: 'Disqus (/d?-sk?s/) is an online discussion and commenting service for
-  websites and online communities that uses a networked platform. The company???s
-  platform includes various features, such as social integration, social networking,
-  user profiles, spam and moderation tools, analytics, email notifications, and mobile
-  commenting. '
-image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/disqus-logo-icon-750.jpg
+x-slug: disqus
+description: Disqus offers the best add-on tools for websites to increase engagement.
+  We help publishers power online discussions with comments and earn revenue with
+  native advertising.
+image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/182-disqus.jpg
 x-kinRank: "8"
-x-alexaRank: ""
-tags:
-- Stack Network
-- Stack
-- Social
-- Partners
-- My API Stack
-- Media
-- Content
-- Comments
-created: "2018-05-08"
-modified: "2018-05-08"
-url: https://raw.githubusercontent.com/streamdata-gallery-topics/organizations/master/_listings/disqus/apis.yaml
+x-alexaRank: "850"
+tags: Organizations
+created: "2018-06-20"
+modified: "2018-06-20"
+url: https://raw.githubusercontent.com/streamdata-gallery-topics/organizations/master/_listings/disqus/apis.md
 specificationVersion: "0.14"
 apis:
-- name: Disqus
-  description: Disqus (/d?-sk?s/) is an online discussion and commenting service for
-    websites and online communities that uses a networked platform
-  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/disqus-logo-icon-750.jpg
-  humanURL: ""
-  baseURL: https://disqus.com/api/3.0/
-  tags: Organizations
+- name: Disqus Organizations ListAdmins
+  x-api-slug: disqus
+  description: Organizations ListAdmins
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/182-disqus.jpg
+  humanURL: https://disqus.com/
+  baseURL: https://disqus.com/api/3.0///organizations/listAdmins.json
+  tags: Comments,Organizations
   properties:
   - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/organizations/master/_listings/disqus/organizations-saas-updatepaymentinfo-json-post.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/organizations/master/_listings/disqus/organizationslistadmins-json-get-openapi.md
+- name: Disqus Organizations RemoveAdmin
+  x-api-slug: disqus
+  description: Organizations RemoveAdmin
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/182-disqus.jpg
+  humanURL: https://disqus.com/
+  baseURL: https://disqus.com/api/3.0///organizations/removeAdmin.json
+  tags: Comments,Organizations
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/organizations/master/_listings/disqus/organizationsremoveadmin-json-post-openapi.md
+- name: Disqus Organizations SetRole
+  x-api-slug: disqus
+  description: Organizations SetRole
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/182-disqus.jpg
+  humanURL: https://disqus.com/
+  baseURL: https://disqus.com/api/3.0///organizations/setRole.json
+  tags: Comments,Organizations
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/organizations/master/_listings/disqus/organizationssetrole-json-post-openapi.md
+- name: Disqus Organizations Saas CurrentPlan
+  x-api-slug: disqus
+  description: Organizations Saas CurrentPlan
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/182-disqus.jpg
+  humanURL: https://disqus.com/
+  baseURL: https://disqus.com/api/3.0///organizations/saas/currentPlan.json
+  tags: Comments,Organizations
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/organizations/master/_listings/disqus/organizationssaascurrentplan-json-get-openapi.md
+- name: Disqus Organizations Saas RemovePaymentInfo
+  x-api-slug: disqus
+  description: Organizations Saas RemovePaymentInfo
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/182-disqus.jpg
+  humanURL: https://disqus.com/
+  baseURL: https://disqus.com/api/3.0///organizations/saas/removePaymentInfo.json
+  tags: Comments,Organizations
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/organizations/master/_listings/disqus/organizationssaasremovepaymentinfo-json-post-openapi.md
+- name: Disqus Organizations Saas Subscribe
+  x-api-slug: disqus
+  description: Organizations Saas Subscribe
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/182-disqus.jpg
+  humanURL: https://disqus.com/
+  baseURL: https://disqus.com/api/3.0///organizations/saas/subscribe.json
+  tags: Comments,Organizations
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/organizations/master/_listings/disqus/organizationssaassubscribe-json-post-openapi.md
+- name: Disqus Organizations Saas Unsubscribe
+  x-api-slug: disqus
+  description: Organizations Saas Unsubscribe
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/182-disqus.jpg
+  humanURL: https://disqus.com/
+  baseURL: https://disqus.com/api/3.0///organizations/saas/unsubscribe.json
+  tags: Comments,Organizations
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/organizations/master/_listings/disqus/organizationssaasunsubscribe-json-post-openapi.md
 - name: Disqus Organizations Saas UpdatePaymentInfo
+  x-api-slug: disqus
   description: Organizations Saas UpdatePaymentInfo
-  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/disqus-logo-icon-750.jpg
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/182-disqus.jpg
+  humanURL: https://disqus.com/
+  baseURL: https://disqus.com/api/3.0///organizations/saas/updatePaymentInfo.json
+  tags: Comments,Organizations
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/organizations/master/_listings/disqus/organizationssaasupdatepaymentinfo-json-post-openapi.md
+- name: Disqus
+  x-api-slug: disqus
+  description: Disqus offers the best add-on tools for websites to increase engagement.
+    We help publishers power online discussions with comments and earn revenue with
+    native advertising.
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/182-disqus.jpg
   humanURL: https://disqus.com/
   baseURL: https://disqus.com/api/3.0/
   tags: Organizations
   properties:
   - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/organizations/master/_listings/disqus/organizations-saas-updatepaymentinfo-json-post.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/organizations/master/_listings/disqus/openapi.md
 x-common:
 - type: x-base
   url: https://disqus.com/api/
@@ -50,30 +114,8 @@ x-common:
   url: http://blog.disqus.com/rss
 - type: x-crunchbase
   url: http://www.crunchbase.com/company/disqus
-- type: x-developer
-  url: https://disqus.com/api/docs/
-- type: x-github
-  url: https://github.com/disqus
-- type: x-partners
-  url: https://disqus.com/partners/
-- type: x-privacy
-  url: https://help.disqus.com/customer/en/portal/articles/466259-privacy-policy
-- type: x-support
-  url: https://help.disqus.com/
-- type: x-terms-of-service
-  url: https://help.disqus.com/customer/portal/topics/215159-terms-and-policies/articles
-- type: x-twitter
-  url: https://twitter.com/disqus
-- type: x-website
-  url: https://disqus.com/
-- type: x-base
-  url: https://disqus.com/api/
-- type: x-blog
-  url: http://blog.disqus.com
-- type: x-blog-rss
-  url: http://blog.disqus.com/rss
 - type: x-crunchbase
-  url: http://www.crunchbase.com/company/disqus
+  url: https://crunchbase.com/organization/disqus
 - type: x-developer
   url: https://disqus.com/api/docs/
 - type: x-github
