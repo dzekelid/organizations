@@ -5,7 +5,7 @@ description: This is a repository of organizations APIs, self-contained as a Git
   operations.
 image: http://template.streamdata.gallery/assets/organizations.png
 created: "2018-02-24"
-modified: "2018-06-20"
+modified: "2018-06-25"
 url: http://organizations.streamdata.gallery/apis.json
 specificationVersion: "0.14"
 apis: []
@@ -21,8 +21,8 @@ include:
   url: https://raw.githubusercontent.com/streamdata-gallery-topics/organizations/master/_listings/disqus/apis.yaml
 - name: GitHub
   url: https://raw.githubusercontent.com/streamdata-gallery-topics/organizations/master/_listings/github/apis.yaml
-- name: StatusPage.io
-  url: https://raw.githubusercontent.com/streamdata-gallery-topics/organizations/master/_listings/statuspage-io/apis.yaml
+- name: StatusPage
+  url: https://raw.githubusercontent.com/streamdata-gallery-topics/organizations/master/_listings/statuspage/apis.yaml
 - name: CloudFlare
   url: https://raw.githubusercontent.com/streamdata-gallery-topics/organizations/master/_listings/cloudflare/apis.yaml
 - name: NPR
@@ -35,8 +35,6 @@ include:
   url: https://raw.githubusercontent.com/streamdata-gallery-topics/organizations/master/_listings/learnifier/apis.yaml
 - name: Open FinTech
   url: https://raw.githubusercontent.com/streamdata-gallery-topics/organizations/master/_listings/open-fintech/apis.yaml
-- name: TidyHQ
-  url: https://raw.githubusercontent.com/streamdata-gallery-topics/organizations/master/_listings/tidyhq/apis.yaml
 - name: Envestnet
   url: https://raw.githubusercontent.com/streamdata-gallery-topics/organizations/master/_listings/envestnet/apis.yaml
 - name: GlobalChange.gov
