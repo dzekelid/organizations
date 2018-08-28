@@ -7,36 +7,30 @@ image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/l
 x-kinRank: "8"
 x-alexaRank: "18282"
 tags: Organizations
-created: "2018-06-25"
-modified: "2018-06-25"
+created: "2018-08-28"
+modified: "2018-08-28"
 url: https://raw.githubusercontent.com/streamdata-gallery-topics/organizations/master/_listings/gitter/apis.md
 specificationVersion: "0.14"
 apis:
-- name: Gitter API User Orgs
-  x-api-slug: gitter-api
+- name: No Title - User Orgs
+  x-api-slug: useruseridorgs-get
   description: List of the user's GitHub Organisations and their respective Room if
     available.
   image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/gitter-logo.png
   humanURL: http://gitter.im
-  baseURL: https://///user/:userId/orgs
-  tags: Users,Organizations
+  baseURL: https:///
+  tags: Technology, SaaS, API Provider, API Service Provider, Communications, Profiles,
+    General Data, Relative Data, Service API
   properties:
   - type: x-postman-collection
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/organizations/master/_listings/gitter/useruseridorgs-get-postman.md
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/organizations/master/_listings/gitter/useruseridorgs-get-openapi.md
-- name: Gitter API
-  x-api-slug: gitter-api
-  description: Gitter is a chat and networking platform that helps to manage, grow
-    and connect communities through messaging, content and discovery.
-  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/gitter-logo.png
-  humanURL: http://gitter.im
-  baseURL: https:///
-  tags: Organizations
-  properties:
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/organizations/master/_listings/gitter/openapi.md
 x-common:
+- type: x-api-gallery
+  url: http://gitlab.api.gallery.streamdata.io
+- type: x-api-stack
+  url: http://gitter.stack.network
 - type: x-crunchbase
   url: https://crunchbase.com/organization/gitter
 - type: x-developer

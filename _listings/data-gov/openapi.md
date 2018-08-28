@@ -1,4 +1,3 @@
----
 swagger: "2.0"
 x-collection-name: Data.Gov
 x-complete: 1
@@ -500,4 +499,89 @@ paths:
       - Organizations
       - Org
       - Reuses
----
+  /me/org_community_resources/:
+    get:
+      summary: Get Me Org Community Resources
+      description: List all community resources related to me and my organizations
+      operationId: getMeOrgCommunityResources
+      x-api-path-slug: meorg-community-resources-get
+      parameters:
+      - in: query
+        name: q
+        description: The string to filter items
+      responses:
+        200:
+          description: OK
+      tags:
+      - Me
+      - Org
+      - Community
+      - Resources
+  /me/org_datasets/:
+    get:
+      summary: Get Me Org Datasets
+      description: List all datasets related to me and my organizations
+      operationId: getMeOrgDatasets
+      x-api-path-slug: meorg-datasets-get
+      parameters:
+      - in: query
+        name: q
+        description: The string to filter items
+      responses:
+        200:
+          description: OK
+      tags:
+      - Me
+      - Org
+      - Datasets
+  /me/org_discussions/:
+    get:
+      summary: Get Me Org Discussions
+      description: List all discussions related to my organizations
+      operationId: getMeOrgDiscussions
+      x-api-path-slug: meorg-discussions-get
+      parameters:
+      - in: query
+        name: q
+        description: The string to filter items
+      responses:
+        200:
+          description: OK
+      tags:
+      - Me
+      - Org
+      - Discussions
+  /me/org_issues/:
+    get:
+      summary: Get Me Org Issues
+      description: List all issues related to my organizations
+      operationId: getMeOrgIssues
+      x-api-path-slug: meorg-issues-get
+      parameters:
+      - in: query
+        name: q
+        description: The string to filter items
+      responses:
+        200:
+          description: OK
+      tags:
+      - Me
+      - Org
+      - Issues
+  /me/org_reuses/:
+    get:
+      summary: Get Me Org Reuses
+      description: List all reuses related to me and my organizations
+      operationId: getMeOrgReuses
+      x-api-path-slug: meorg-reuses-get
+      parameters:
+      - in: query
+        name: q
+        description: The string to filter items
+      responses:
+        200:
+          description: OK
+      tags:
+      - Me
+      - Org
+      - Reuses

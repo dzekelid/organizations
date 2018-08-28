@@ -49,6 +49,29 @@ paths:
       - Categories
       - Category
       - Recommendations
+  /listening/v2/organizations/{orgId}/recommendations:
+    get:
+      summary: Get a variety of details about an organization including various lists
+        of recent audio items
+      description: This endpoint provides a variety of details about an organization
+        including various lists of recent audio items.
+      operationId: getOrganizationOverview
+      x-api-path-slug: listeningv2organizationsorgidrecommendations-get
+      parameters:
+      - in: query
+        name: No Name
+      - in: path
+        name: orgId
+        description: ID of an organization, such as an NPR One station
+      responses:
+        200:
+          description: OK
+      tags:
+      - News
+      - Listening
+      - Organizations
+      - Org
+      - Recommendations
 x-streamrank:
   polling_total_time_average: 0
   polling_size_download_average: 0

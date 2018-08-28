@@ -7,59 +7,55 @@ image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/18898-stat
 x-kinRank: "8"
 x-alexaRank: "34303"
 tags: Organizations
-created: "2018-06-25"
-modified: "2018-06-25"
+created: "2018-08-28"
+modified: "2018-08-28"
 url: https://raw.githubusercontent.com/streamdata-gallery-topics/organizations/master/_listings/statuspage/apis.md
 specificationVersion: "0.14"
 apis:
-- name: StatusPage.io List users
-  x-api-slug: statuspage-io
+- name: StatusPage.io - List users
+  x-api-slug: organizationsorganization-idusers-json-get
   description: List users
   image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/18898-statuspage-io.jpg
   humanURL: https://www.statuspage.io/
-  baseURL: https://///organizations/[organization_id]/users.json
-  tags: Organizations
+  baseURL: https:///
+  tags: Monitoring, Stack Network, SaaS, Technology, internet, Relative Data, Service
+    API, Relative StreamRank, Streams
   properties:
   - type: x-postman-collection
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/organizations/master/_listings/statuspage/organizationsorganization-idusers-json-get-postman.md
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/organizations/master/_listings/statuspage/organizationsorganization-idusers-json-get-openapi.md
-- name: StatusPage.io Create a user
-  x-api-slug: statuspage-io
+- name: StatusPage.io - Create a user
+  x-api-slug: organizationsorganization-idusers-json-post
   description: Create a user
   image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/18898-statuspage-io.jpg
   humanURL: https://www.statuspage.io/
-  baseURL: https://///organizations/[organization_id]/users.json
-  tags: Organizations
+  baseURL: https:///
+  tags: Monitoring, Stack Network, SaaS, Technology, internet, Relative Data, Service
+    API, Relative StreamRank, Streams
   properties:
   - type: x-postman-collection
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/organizations/master/_listings/statuspage/organizationsorganization-idusers-json-post-postman.md
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/organizations/master/_listings/statuspage/organizationsorganization-idusers-json-post-openapi.md
-- name: StatusPage.io Delete a user
-  x-api-slug: statuspage-io
+- name: StatusPage.io - Delete a user
+  x-api-slug: organizationsorganization-idusersuser-id-json-delete
   description: Delete a user
   image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/18898-statuspage-io.jpg
   humanURL: https://www.statuspage.io/
-  baseURL: https://///organizations/[organization_id]/users/[user_id].json
-  tags: Organizations
+  baseURL: https:///
+  tags: Monitoring, Stack Network, SaaS, Technology, internet, Relative Data, Service
+    API, Relative StreamRank, Streams
   properties:
   - type: x-postman-collection
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/organizations/master/_listings/statuspage/organizationsorganization-idusersuser-id-json-delete-postman.md
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/organizations/master/_listings/statuspage/organizationsorganization-idusersuser-id-json-delete-openapi.md
-- name: StatusPage.io
-  x-api-slug: statuspage-io
-  description: StatusPage.io is the best way for web infrastructure, developer API,
-    and SaaS companies to get set up with their very own status page in minutes
-  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/18898-statuspage-io.jpg
-  humanURL: https://www.statuspage.io/
-  baseURL: https:///
-  tags: Organizations
-  properties:
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/organizations/master/_listings/statuspage/openapi.md
 x-common:
+- type: x-api-gallery
+  url: http://starred.api.gallery.streamdata.io
+- type: x-api-stack
+  url: http://statuspage.stack.network
 - type: x-authentication
   url: http://doers.statuspage.io/api/authentication/
 - type: x-blog

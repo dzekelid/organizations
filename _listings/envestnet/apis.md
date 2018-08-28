@@ -7,59 +7,55 @@ image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/1691-yodle
 x-kinRank: "8"
 x-alexaRank: "84912"
 tags: Organizations
-created: "2018-06-25"
-modified: "2018-06-25"
+created: "2018-08-28"
+modified: "2018-08-28"
 url: https://raw.githubusercontent.com/streamdata-gallery-topics/organizations/master/_listings/envestnet/apis.md
 specificationVersion: "0.14"
 apis:
-- name: Crunch Base Organizations
-  x-api-slug: crunch-base
+- name: Crunch Base - Organizations
+  x-api-slug: organizations-get
   description: Get Organizations
   image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/1691-yodlee.jpg
   humanURL: http://www.yodlee.com/
-  baseURL: https://api.crunchbase.com//v/3//organizations
-  tags: Organizations
+  baseURL: https://api.crunchbase.com//v/3
+  tags: Aggregation, Finance, Finance, Financial Data, SaaS, Technology, Enterprise,
+    Profiles, General Data, Service API
   properties:
   - type: x-postman-collection
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/organizations/master/_listings/envestnet/organizations-get-postman.md
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/organizations/master/_listings/envestnet/organizations-get-openapi.md
-- name: Crunch Base Get Organizations
-  x-api-slug: crunch-base
+- name: Crunch Base - Get Organizations
+  x-api-slug: organizationspermalink-get
   description: Get Organization Using Permalink
   image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/1691-yodlee.jpg
   humanURL: http://www.yodlee.com/
-  baseURL: https://api.crunchbase.com//v/3//organizations/{permalink}
-  tags: Organizations,Permalink
+  baseURL: https://api.crunchbase.com//v/3
+  tags: Aggregation, Finance, Finance, Financial Data, SaaS, Technology, Enterprise,
+    Profiles, General Data, Service API
   properties:
   - type: x-postman-collection
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/organizations/master/_listings/envestnet/organizationspermalink-get-postman.md
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/organizations/master/_listings/envestnet/organizationspermalink-get-openapi.md
-- name: Crunch Base Get Organization Relationships
-  x-api-slug: crunch-base
+- name: Crunch Base - Get Organization Relationships
+  x-api-slug: organizationspermalinkrelationship-name-get
   description: Get Organizations Relationships Using Permlink
   image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/1691-yodlee.jpg
   humanURL: http://www.yodlee.com/
-  baseURL: https://api.crunchbase.com//v/3//organizations/{permalink}/{relationship_name}
-  tags: Organizations,Permalink,Relationship,Name
+  baseURL: https://api.crunchbase.com//v/3
+  tags: Aggregation, Finance, Finance, Financial Data, SaaS, Technology, Enterprise,
+    Profiles, General Data, Service API
   properties:
   - type: x-postman-collection
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/organizations/master/_listings/envestnet/organizationspermalinkrelationship-name-get-postman.md
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/organizations/master/_listings/envestnet/organizationspermalinkrelationship-name-get-openapi.md
-- name: Crunch Base
-  x-api-slug: crunch-base
-  description: Build and transform financial apps and services with access to financial
-    data through our APIs and digital solutions for banks, developers, and innovators.
-  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/1691-yodlee.jpg
-  humanURL: http://www.yodlee.com/
-  baseURL: https://api.crunchbase.com//v/3
-  tags: Organizations
-  properties:
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/organizations/master/_listings/envestnet/openapi.md
 x-common:
+- type: x-api-gallery
+  url: http://entertainment.express.api.gallery.streamdata.io
+- type: x-api-stack
+  url: http://envestnet.stack.network
 - type: x-base
   url: https://rest.developer.yodlee.com/services/srest/
 - type: x-blog
